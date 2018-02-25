@@ -13,7 +13,9 @@
   - There is a Facility Change the language from English to Hindi and Viceversa.
   # Improtant Features
   - This project is coded to implement the security features as well like, protection 
-    from SQL Injection, XSS (Cross-Site Scripting), Session Management.
+    from SQL Injection, XSS (Cross-Site Scripting), Session Management and Hash Password Protection.
+  - Role management also implemented in this project.That means only Admin can see the stored Table
+    details.
   - Coded as SOLID and MVC Structure which is growing trend of PHP coding style.
   
   PLEASE USE THE PROVIDED LINK TO DOWNLOAD THE PROJECT.
