@@ -14,7 +14,7 @@ The PHP is coded based on SOLID and MVC Structure.
   - This Project mainly Created like a Socialmedia feature.
   - For Star rating and Commenting about the Hindi and Bagchal Game Community.
   - There is a Facility Change the language from English to Hindi and Viceversa.
-  # Improtant Features
+# Improtant Features
   - This project is coded to implement the security features as well like, protection 
     from SQL Injection, XSS (Cross-Site Scripting), Session Management and Plain Text Password Storage (Converts to Hash Password).
   - Role management also implemented in this project.That means only Admin can see the stored Table
