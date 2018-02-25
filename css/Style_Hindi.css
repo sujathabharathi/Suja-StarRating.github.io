@@ -1,0 +1,271 @@
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background: url('../img/bg2.jpg') no-repeat center center fixed;
+  
+  background-size: cover;
+
+}
+
+h1, h2, h3, h4, h5, h6, .text-heading {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+/*me*/
+.align {
+	margin-left:2em;
+}
+
+.ahref{
+	margin-left:5em;
+	font-size:1.5em;
+	letter-spacing:5px;
+	color:#000;	
+}
+#buildtxt{
+	margin-left:7em;
+}
+.text-heading{
+	font-size: 1.3em;
+}
+
+input[type=checkbox],input[type=radio] {
+	width:20px;
+	height:20px;
+}
+ 
+ .form-control{
+	 border:1px solid #000;
+ }
+#textCarousel{
+	background-color:#000; 
+	color:#fff;
+	padding :3em 2em;
+	text-align:center;
+}
+.txtCarH2{
+	 color: #f35626;
+	 font-size:3em;
+	 	
+	 font-family:  'Berkshire Swash', cursive;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    
+    to {
+      -webkit-filter: hue-rotate(360deg);
+    }
+}
+	
+#regform{
+	margin-left:20em;
+	
+}
+
+label{
+	font-weight:bold;
+}
+.nav-link{
+	
+	font-size:1.5em;
+	
+}
+.btn{
+	background-color:#404040;
+}
+
+p{
+	margin:0 1em;
+	padding:0.5em;
+}
+
+input.star { display: none;}
+label.star {
+float:right;/*do not change*/
+    display: block;
+    /*padding: 10px 5px;*/
+ 
+    position: relative;  
+font-size: 515%;	
+  color:#000 ;/*#FE7;*/
+ 
+}
+
+input.star-2:checked ~ label.star:before {
+  content: '\2665';
+  color: #ff6600;
+  transition: all .25s;
+  
+}
+input.star-3:checked ~ label.star:before {
+  content: '\2665';
+  color: #FFFF00;
+  transition: all .25s;
+}
+input.star-4:checked ~ label.star:before {
+  content: '\2665';
+  color: #7FFF00;
+  transition: all .25s;
+}
+ 
+input.star-5:checked ~ label.star:before {
+	  content: '\2665';
+  color: #006000;
+  text-shadow: 0 0 10px #025ead;
+
+}
+
+input.star-1:checked ~ label.star:before {   content: '\2665'; color: #ff0000;   transition: all .25s;}
+label.star:hover { transform:rotate(-25deg) scale(1.5); }
+label.star:before {
+  content: '\2661';
+}
+
+
+.rating {
+  float: left;
+  width: 45%;
+  margin-right: 4%;
+  text-align: center;
+
+}
+.rating-num {    /*total average number*/
+
+  font-size: 72px;
+  font-weight: 100;
+  line-height: 1em; 
+ color:#fff;
+  text-shadow:2px 2px black;
+	
+}
+.rating-stars {
+  font-size: 3em;
+  color: #E3E3E3;
+  margin-bottom: 0.5em;
+}
+.rating-stars .active {
+  color: #737373;
+}
+.rating-users {
+  font-size:1.3em; /*Total numner of users under the total average*/
+  color:#fff;
+  text-shadow:2px 2px black;
+	
+}
+.histo {
+  float: left;
+  width: 50%;
+  font-size: 1.7em;
+}
+.histo-star { /* chart numbders 5432*/
+  float: left;
+  padding: 3px;
+  color:#fff;
+  text-shadow:2px 2px black;
+  
+
+}
+.histo-rate {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+.bar-block {
+  margin-left: 5px;
+  color: black;
+  display: block;
+  float: left;
+  width: 75%;
+  position: relative;
+}
+.fontt
+{
+	color:#fff;
+	text-shadow:2px 2px #000;
+}
+.bar {
+  padding: 4px;
+  display: block;
+}
+
+.inner {
+  padding: 1em;
+	
+	background: url('../img/bg2.jpg') no-repeat center center fixed;
+  
+  background-size: cover;
+
+  overflow: hidden;
+  position: relative;
+  margin:0 auto;
+ border:2px solid #000;
+ 	border-radius:2em;
+} 
+
+th{
+	background-color:#000;
+	color:#fff;
+	text-align:center;
+	white-space:nowrap;
+}
+td
+{
+
+	border-bottom:1px solid #000;
+	white-space:nowrap;
+}
+
+/*********************************/
+.tagline-upper {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.tagline-lower {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.text-expanded {
+  letter-spacing: 2px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+hr.divider {
+  border-color: #292b2c;
+  max-width: 250px;
+}
+
+.map-container iframe {
+  pointer-events: none;
+}
+
+.map-container iframe.clicked {
+  pointer-events: auto;
+}
