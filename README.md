@@ -1,4 +1,7 @@
 ## Welcome to Star Rating Project
+This Project is Created using PHP 7 and MySQL.
+The PHP is coded based on SOLID and MVC Structure.
+
 # Instructions
   - Install Xampp  or Wampp in your System.
   - Make Sure your Apache and MySQL Server is Running.
@@ -21,8 +24,7 @@
   PLEASE USE THE PROVIDED LINK TO DOWNLOAD THE PROJECT.
   
 
-This Project is Created using PHP 7 and MySQL.
-The PHP is coded based on SOLID and MVC Structure.
+
 
 
 
